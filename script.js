@@ -5,7 +5,7 @@ function toggleMode() {
   html.classList.toggle("light");
 
   const imgSrc = html.classList.contains("light")
-    ? "./assets/avatar_light.png"
-    : "./assets/avatar_dark.png";
+    ? "./assets/avatar.png"
+    : "./assets/avatar.png";
   img.setAttribute("src", imgSrc);
 }
